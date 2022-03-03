@@ -120,7 +120,7 @@ var script = {
 
     // Events
     onAfterChange: function(event, slick, currentSlide) {
-      this.$emit('afterChange', event, slick, currentSlide);
+      this.$emit('afterchange', event, slick, currentSlide);
     },
 
     onBeforeChange: function(event, slick, currentSlide, nextSlide) {
